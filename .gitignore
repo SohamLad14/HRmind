@@ -1,0 +1,18 @@
+# Python internals
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment
+venv/
+.venv/
+env/
+
+# Local Data & Vector Stores
+data/faiss_index/
+*.faiss
+*.pkl
+
+# Secrets and Configs
+.env
